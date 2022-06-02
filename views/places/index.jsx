@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
         cuisines: 'Coffee, Bakery',
         pic: 'http://placekitten.com/250/250'
     }]
-    res.render('paces/index', { places })
+    res.render('places/index', { places })
   })
 
   function index (data) {
@@ -33,5 +33,4 @@ app.get('/', (req, res) => {
              </main>
          </Def>
      )
-     // ...
   }
