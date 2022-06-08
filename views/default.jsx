@@ -1,10 +1,11 @@
 const React = require('react')
 
+
 function Def (html) {
     return (
         <html>
             <head>
-                <title>Title</title>
+                <title>RestRant</title>
             </head>
             <body>
                 {html.children}
